@@ -1,0 +1,15 @@
+{
+  "name": "static-solitary",
+  "description": "A static server that bundles assets in to a single file.",
+  "author": "luin<lizihua@shimo.im>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "parcel-bundler": "^1.12.3",
+    "walk-sync": "^2.0.2"
+  }
+}

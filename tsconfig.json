@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": ["es2015", "es2015.promise", "dom"],
+    "types": ["node"],
+    "moduleResolution": "node",
+    "module": "commonJS"
+  },
+  "include": [
+      "src/**/*.ts",
+      "bin/**/*.ts"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}
