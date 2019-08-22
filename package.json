@@ -1,7 +1,14 @@
 {
   "name": "static-solitary",
+  "version": "0.0.0",
   "description": "A static server that bundles assets in to a single file.",
   "author": "luin<lizihua@shimo.im>",
+  "bin": {
+    "solitary": "bin/solitary.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
   "license": "MIT",
   "devDependencies": {
     "ts-node": "^8.3.0",
